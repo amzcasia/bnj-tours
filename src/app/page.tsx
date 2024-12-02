@@ -1,3 +1,9 @@
+import TourCard from "@/components/TourCard";
+
 export default function Page() {
-    return <h1>Hello, Next.js!</h1>
+    return (
+      <main className="flex">
+        <TourCard/>
+      </main>
+    )
   }
